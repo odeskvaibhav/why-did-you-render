@@ -80,6 +80,14 @@ export default function defaultNotifier(updateInfo) {
 
   let prefixMessage = 'Re-rendered because';
 
+  if(displayName === wdyrStore.options.filterComponentName) {
+    wdyrStore.totalCount++;
+  }
+  console.warn(displayName, "rerendered", wdyrStore.totalCount, "Times");
+  setTimeout(function(){
+    wdyrStore.totalCount = 0;
+  }, 5000);
+
   if (reason.propsDifferences) {
     logDifference({
       Component,

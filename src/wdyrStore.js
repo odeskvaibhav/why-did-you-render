@@ -22,6 +22,12 @@ const wdyrStore = {
 
   /* An array of hooks tracked during one render */
   hooksPerRender: [],
+
+  /* Current Component */
+  currentComponent: '',
+
+  /* Total counts of current rerender */
+  totalCount: 0
 };
 
 export default wdyrStore;
