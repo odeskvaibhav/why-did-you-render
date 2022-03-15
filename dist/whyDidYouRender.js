@@ -754,12 +754,8 @@
 
     if (displayName === wdyrStore.options.componentToShowAlerts) {
       wdyrStore.totalCount++;
+      console.warn(displayName, 'rerendered', wdyrStore.totalCount, 'Times');
     }
-
-    console.warn(displayName, "rerendered", wdyrStore.totalCount, "Times");
-    setTimeout(function () {
-      wdyrStore.totalCount = 0;
-    }, 5000);
 
     if (reason.propsDifferences) {
       logDifference({

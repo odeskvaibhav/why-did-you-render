@@ -1,7 +1,8 @@
-import wdyrStore from './wdyrStore';
+/* eslint-disable no-console */
 
 import { diffTypes, diffTypesDescriptions } from './consts';
 import printDiff from './printDiff';
+import wdyrStore from './wdyrStore';
 
 const moreInfoUrl = 'http://bit.ly/wdyr02';
 const moreInfoHooksUrl = 'http://bit.ly/wdyr3';
@@ -83,7 +84,7 @@ export default function defaultNotifier(updateInfo) {
   if(displayName === wdyrStore.options.componentToShowAlerts) {
     wdyrStore.totalCount++;
 
-    console.warn(displayName, "rerendered", wdyrStore.totalCount, "Times");
+    console.warn(displayName, 'rerendered', wdyrStore.totalCount, 'Times');
   }
 
   if (reason.propsDifferences) {
