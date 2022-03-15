@@ -1,7 +1,7 @@
 {
-  "name": "@welldone-software/why-did-you-render",
+  "name": "why-did-you-render-ui",
   "version": "6.2.3",
-  "description": "Monkey patches React to notify you about avoidable re-renders.",
+  "description": "Showing components using Re-renders as alerts using @welldone-software/why-did-you-render",
   "types": "types.d.ts",
   "main": "dist/whyDidYouRender.js",
   "files": [
@@ -13,10 +13,10 @@
     "jsx-dev-runtime.d.ts"
   ],
   "authors": [
-    "Vitali Zaidman <vzaidman@gmail.com> (https://github.com/vzaidman)"
+    "Vaibhav Jain <odesk.vaibhav@gmail.com> (https://github.com/odeskvaibhav)"
   ],
   "license": "MIT",
-  "repository": "https://github.com/welldone-software/why-did-you-render",
+  "repository": "https://github.com/odeskvaibhav/why-did-you-render-ui",
   "keywords": [
     "react",
     "component",
