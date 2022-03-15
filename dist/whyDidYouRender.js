@@ -752,7 +752,7 @@
     wdyrStore.options.consoleGroup("%c".concat(displayName), "color: ".concat(wdyrStore.options.titleColor, ";"));
     var prefixMessage = 'Re-rendered because';
 
-    if (displayName === wdyrStore.options.filterComponentName) {
+    if (displayName === wdyrStore.options.componentToShowAlerts) {
       wdyrStore.totalCount++;
     }
 
