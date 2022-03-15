@@ -11,5 +11,5 @@ whyDidYouRender.storeOwnerData = storeOwnerData;
 whyDidYouRender.getWDYRType = getWDYRType;
 Object.assign(whyDidYouRender, React);
 
-export {whyDidYouRender};
-// export WhyDidRenderProvider;
+
+export default whyDidYouRender;
