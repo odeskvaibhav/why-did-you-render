@@ -1,4 +1,4 @@
-1. Open Package.json & add this in devDependencies
+1. Open Package.json & add this as a devDependencies
 
     ```"why-did-you-render-ui": "https://github.com/odeskvaibhav/why-did-you-render-ui"``` 
 
